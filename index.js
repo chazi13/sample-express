@@ -10,6 +10,10 @@ app.get('/hello', (_, res) => {
   res.send("yo! whatsapp")
 })
 
+app.get('/ci', (_, res) => {
+  res.send("test ci/cd")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
